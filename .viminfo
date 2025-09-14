@@ -15,9 +15,9 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1757815254,,"wq"
+|2,0,1757856275,,"wq"
 :q
-|2,0,1757815233,,"q"
+|2,0,1757818192,,"q"
 :w
 |2,0,1757815218,,"w"
 
@@ -36,92 +36,266 @@
 	    execl("/bin/ls", {"ls", (char*)0}, {(char*)0});
 |3,0,1,1,1,0,1757815190,"    execl(\"/bin/ls\", {\"ls\", (char*)0}, {(char*)0});"
 ""-	CHAR	0
-	child
-|3,1,36,0,1,0,1757815253,"child"
+	 
+|3,1,36,0,1,0,1757856270," "
 
 # File marks:
-'0  35  24  ~/ptrace_test.c
-|4,48,35,24,1757815254,"~/ptrace_test.c"
-'1  15  36  ~/ptrace_test.c
-|4,49,15,36,1757815233,"~/ptrace_test.c"
-'2  15  36  ~/ptrace_test.c
-|4,50,15,36,1757815233,"~/ptrace_test.c"
-'3  15  36  ~/ptrace_test.c
-|4,51,15,36,1757815231,"~/ptrace_test.c"
-'4  15  36  ~/ptrace_test.c
-|4,52,15,36,1757815231,"~/ptrace_test.c"
-'5  25  0  ~/ptrace_test.c
-|4,53,25,0,1757815224,"~/ptrace_test.c"
-'6  25  0  ~/ptrace_test.c
-|4,54,25,0,1757815224,"~/ptrace_test.c"
-'7  25  0  ~/ptrace_test.c
-|4,55,25,0,1757815224,"~/ptrace_test.c"
-'8  25  0  ~/ptrace_test.c
-|4,56,25,0,1757815224,"~/ptrace_test.c"
-'9  25  0  ~/ptrace_test.c
-|4,57,25,0,1757815224,"~/ptrace_test.c"
+'0  16  13  /usr/local/bin/gdb
+|4,48,16,13,1757856275,"/usr/local/bin/gdb"
+'1  5  0  ~/test.c
+|4,49,5,0,1757856187,"~/test.c"
+'2  28  4  /opt/pwndbg/gdbinit.py
+|4,50,28,4,1757818192,"/opt/pwndbg/gdbinit.py"
+'3  1  45  ~/rosetta.sh
+|4,51,1,45,1757817790,"~/rosetta.sh"
+'4  8  0  ~/test.c
+|4,52,8,0,1757817043,"~/test.c"
+'5  8  0  ~/test.c
+|4,53,8,0,1757817043,"~/test.c"
+'6  1  8  ~/test.sh
+|4,54,1,8,1757816500,"~/test.sh"
+'7  2  8  ~/test.sh
+|4,55,2,8,1757816460,"~/test.sh"
+'8  2  8  ~/test.sh
+|4,56,2,8,1757816460,"~/test.sh"
+'9  35  24  ~/ptrace_test.c
+|4,57,35,24,1757815254,"~/ptrace_test.c"
 
 # Jumplist (newest first):
--'  35  24  ~/ptrace_test.c
-|4,39,35,24,1757815254,"~/ptrace_test.c"
--'  24  20  ~/ptrace_test.c
-|4,39,24,20,1757815251,"~/ptrace_test.c"
--'  15  36  ~/ptrace_test.c
-|4,39,15,36,1757815250,"~/ptrace_test.c"
--'  15  36  ~/ptrace_test.c
-|4,39,15,36,1757815233,"~/ptrace_test.c"
--'  15  36  ~/ptrace_test.c
-|4,39,15,36,1757815231,"~/ptrace_test.c"
--'  25  0  ~/ptrace_test.c
-|4,39,25,0,1757815225,"~/ptrace_test.c"
--'  25  0  ~/ptrace_test.c
-|4,39,25,0,1757815225,"~/ptrace_test.c"
--'  25  0  ~/ptrace_test.c
-|4,39,25,0,1757815225,"~/ptrace_test.c"
--'  25  0  ~/ptrace_test.c
-|4,39,25,0,1757815224,"~/ptrace_test.c"
--'  15  32  ~/ptrace_test.c
-|4,39,15,32,1757815210,"~/ptrace_test.c"
--'  15  32  ~/ptrace_test.c
-|4,39,15,32,1757815202,"~/ptrace_test.c"
--'  16  47  ~/ptrace_test.c
-|4,39,16,47,1757815167,"~/ptrace_test.c"
--'  16  47  ~/ptrace_test.c
-|4,39,16,47,1757815167,"~/ptrace_test.c"
--'  16  47  ~/ptrace_test.c
-|4,39,16,47,1757815167,"~/ptrace_test.c"
--'  16  47  ~/ptrace_test.c
-|4,39,16,47,1757815167,"~/ptrace_test.c"
--'  16  47  ~/ptrace_test.c
-|4,39,16,47,1757815167,"~/ptrace_test.c"
--'  15  47  ~/ptrace_test.c
-|4,39,15,47,1757815142,"~/ptrace_test.c"
--'  15  35  ~/ptrace_test.c
-|4,39,15,35,1757815074,"~/ptrace_test.c"
--'  15  30  ~/ptrace_test.c
-|4,39,15,30,1757815024,"~/ptrace_test.c"
--'  15  8  ~/ptrace_test.c
-|4,39,15,8,1757815016,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
--'  1  0  ~/ptrace_test.c
-|4,39,1,0,1757815010,"~/ptrace_test.c"
+-'  16  13  /usr/local/bin/gdb
+|4,39,16,13,1757856275,"/usr/local/bin/gdb"
+-'  1  0  /usr/local/bin/gdb
+|4,39,1,0,1757856247,"/usr/local/bin/gdb"
+-'  5  0  ~/test.c
+|4,39,5,0,1757856187,"~/test.c"
+-'  5  0  ~/test.c
+|4,39,5,0,1757856187,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757856175,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757856175,"~/test.c"
+-'  28  4  /opt/pwndbg/gdbinit.py
+|4,39,28,4,1757818192,"/opt/pwndbg/gdbinit.py"
+-'  28  4  /opt/pwndbg/gdbinit.py
+|4,39,28,4,1757818192,"/opt/pwndbg/gdbinit.py"
+-'  28  4  /opt/pwndbg/gdbinit.py
+|4,39,28,4,1757818192,"/opt/pwndbg/gdbinit.py"
+-'  28  4  /opt/pwndbg/gdbinit.py
+|4,39,28,4,1757818192,"/opt/pwndbg/gdbinit.py"
+-'  1  0  /opt/pwndbg/gdbinit.py
+|4,39,1,0,1757818186,"/opt/pwndbg/gdbinit.py"
+-'  1  0  /opt/pwndbg/gdbinit.py
+|4,39,1,0,1757818186,"/opt/pwndbg/gdbinit.py"
+-'  1  0  /opt/pwndbg/gdbinit.py
+|4,39,1,0,1757818186,"/opt/pwndbg/gdbinit.py"
+-'  1  0  /opt/pwndbg/gdbinit.py
+|4,39,1,0,1757818186,"/opt/pwndbg/gdbinit.py"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  1  45  ~/rosetta.sh
+|4,39,1,45,1757817790,"~/rosetta.sh"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  8  0  ~/test.c
+|4,39,8,0,1757817043,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  0  ~/test.c
+|4,39,1,0,1757817028,"~/test.c"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  1  8  ~/test.sh
+|4,39,1,8,1757816500,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
+-'  2  8  ~/test.sh
+|4,39,2,8,1757816477,"~/test.sh"
 
 # History of marks within files (newest to oldest):
+
+> /usr/local/bin/gdb
+	*	1757856270	0
+	"	16	13
+	.	16	13
+	+	16	13
+
+> ~/test.c
+	*	1757856186	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	8	0
+	+	5	0
+
+> /opt/pwndbg/gdbinit.py
+	*	1757818191	0
+	"	28	4
+
+> ~/rosetta.sh
+	*	1757817790	0
+	"	1	45
+	^	1	46
+	.	1	46
+	+	1	46
+
+> ~/test.sh
+	*	1757816479	0
+	"	1	8
+	^	2	9
+	.	2	8
+	+	2	8
 
 > ~/ptrace_test.c
 	*	1757815253	0

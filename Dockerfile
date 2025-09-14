@@ -41,6 +41,4 @@ RUN git clone https://github.com/pwndbg/pwndbg.git /opt/pwndbg && \
 
 WORKDIR /root
 
-COPY /home/jun/.vimrc /root/.vimrc
-
 CMD ["/bin/bash"]

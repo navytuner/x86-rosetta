@@ -63,6 +63,7 @@ run_container(){
     --pid=host \
     --name pwn-session \
     -v .:/root \
+    -v ./rosetta.sh:/usr/local/bin/gdb \
     u2204-pwn /bin/bash 
 }
 
